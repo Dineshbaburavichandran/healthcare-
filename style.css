@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0288d1;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form select, form button {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+form button {
+    background: #0288d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #026aa7;
+}
